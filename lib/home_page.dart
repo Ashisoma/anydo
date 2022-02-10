@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'auth/register.dart';
 import "colors.dart" as colors;
 
 
@@ -60,7 +61,12 @@ class _HomePageState extends State<HomePage> {
                     SizedBox(
                       width:250,
                       height: 40,
-                      child: ElevatedButton(onPressed: (){},
+                      child: ElevatedButton(onPressed: (){
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(builder: (context) => const RegisterScreen()),
+                        );
+                      },
                           style: ElevatedButton.styleFrom(
                             primary: colors.AppColor.themeColor ,
                               shape: StadiumBorder(),
