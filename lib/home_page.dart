@@ -55,7 +55,7 @@ class _HomePageState extends State<HomePage> {
                         )),
                   ],
                 ),
-                SizedBox(height:50),
+                const SizedBox(height:50),
                 Column(
                   children: [
                     SizedBox(
