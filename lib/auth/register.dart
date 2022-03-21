@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 class RegisterScreen extends StatefulWidget {
@@ -43,12 +42,12 @@ class _RegisterScreenState extends State<RegisterScreen> {
                           )),
                     ]
                   ),
-                  SizedBox(height: 5),
+                  const SizedBox(height: 5),
                   SizedBox(
                     width:200,
                     child: Row(
                       children: <Widget> [
-                        TextField(
+                        const TextField(
                             decoration: InputDecoration(
                               border: OutlineInputBorder(),
                               hintText: 'Enter  search term',

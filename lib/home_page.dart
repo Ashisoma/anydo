@@ -69,7 +69,7 @@ class _HomePageState extends State<HomePage> {
                       },
                           style: ElevatedButton.styleFrom(
                             primary: colors.AppColor.themeColor ,
-                              shape: StadiumBorder(),
+                              shape: const StadiumBorder(),
                           ),
                           child: const Text(
                               "Get Started",
@@ -82,6 +82,8 @@ class _HomePageState extends State<HomePage> {
                   ],
                 )
               ],
-            )));
+            ),
+        ),
+    );
   }
 }
